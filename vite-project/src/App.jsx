@@ -1,10 +1,13 @@
 import React from "react"
+import Home from "./components/home"
+import Navbar from "./components/navbar"
 
 function App() {
   
   return (
-    <div className="w-64 mx-auto bg-secondary text-black shadow-lg rounded-lg overflow-hidden h-64">
-      <h1 className="text-lg text-center font-semibold truncate">Hello Word</h1>
+    <div>
+      <Navbar></Navbar>
+      <Home></Home>
     </div>
   )
 }
